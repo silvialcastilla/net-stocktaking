@@ -15,5 +15,6 @@ namespace StockTaking.Entities
         public bool IsInternalTransfer { get; set; }
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
+        public IEnumerable<StockTakingMovement>? StockTakingMovement {get; set;}
     }
 }
