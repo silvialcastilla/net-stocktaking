@@ -18,6 +18,16 @@ namespace StockTaking.Entities
 
         public DateTime CreateAt { get; set; }
 
-        public DateTime UpdateAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
+
+        public int CategoryId { get; set; } //foreign key
+
+        public Category? Category {get; set;}
+
+        public int SupplierId {get; set;}
+
+        public Supplier? Supplier {get; set;}
+
+        public IEnumerable<StockTakingMovement>? StockTakingMovement {get; set;}
     }
 }

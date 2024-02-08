@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTaking.Persistence", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTaking.WebApi", "StockTaking.WebApi\StockTaking.WebApi.csproj", "{DAD96EDF-320B-4E19-8539-033194AB7205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTaking.DTOs", "StockTaking.DTOs\StockTaking.DTOs.csproj", "{DF012D83-9C66-4459-AD92-EF4E44593BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DAD96EDF-320B-4E19-8539-033194AB7205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD96EDF-320B-4E19-8539-033194AB7205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD96EDF-320B-4E19-8539-033194AB7205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF012D83-9C66-4459-AD92-EF4E44593BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF012D83-9C66-4459-AD92-EF4E44593BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF012D83-9C66-4459-AD92-EF4E44593BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF012D83-9C66-4459-AD92-EF4E44593BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

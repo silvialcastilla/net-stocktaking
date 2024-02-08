@@ -14,6 +14,8 @@ namespace StockTaking.Entities
 
         public DateTime CreateAt { get; set; }
 
-        public DateTime UpdateAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
+
+        public IEnumerable<Product>? Products {get; set;}
     }
 }
