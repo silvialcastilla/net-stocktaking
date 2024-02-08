@@ -16,6 +16,6 @@ namespace StockTaking.Persistence
         public DbSet<Product> Products { get; set; }
         public DbSet<StockTakingMovement> StockTakingMovements { get; set; }
         public DbSet<StockTakingStock> StockTakingStocks { get; set; }
-        public DbSet<Supplier> Supplier { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
     }
 }

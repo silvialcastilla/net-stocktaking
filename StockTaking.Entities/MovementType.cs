@@ -14,7 +14,7 @@ namespace StockTaking.Entities
         public bool IsOutgoing { get; set; }
         public bool IsInternalTransfer { get; set; }
         public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
         public IEnumerable<StockTakingMovement>? StockTakingMovement {get; set;}
     }
 }

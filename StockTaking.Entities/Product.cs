@@ -18,7 +18,7 @@ namespace StockTaking.Entities
 
         public DateTime CreateAt { get; set; }
 
-        public DateTime UpdateAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
 
         public int CategoryId { get; set; } //foreign key
 
